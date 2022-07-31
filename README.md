@@ -1,6 +1,7 @@
 # Struct Serval
 
-Struct Validator and Sanitizer using https://crates.io/crates/validator and https://crates.io/crates/sanitizer.
+Struct Validator and Sanitizer for [Rocket](https://rocket.rs/)  
+(using https://crates.io/crates/validator and https://crates.io/crates/sanitizer)
 
 Inspired by https://crates.io/crates/rocket-validation
 
