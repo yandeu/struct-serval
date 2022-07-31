@@ -1,0 +1,16 @@
+[package]
+name = "struct-serval"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+rocket = {version = "0.5.0-rc.2", default-features = false, features = ["json"]}
+sanitizer = { version = "0.1", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+validator = { version = "0.16", features = ["derive"] }
+
